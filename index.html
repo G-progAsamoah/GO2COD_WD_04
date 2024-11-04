@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocalFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FocalFlow</h1>
+        <button id="theme-toggle">🌞/🌙</button>
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="social">Social Events</option>
+            <option value="corporate">Corporate Events</option>
+            <option value="public">Public & Cultural Events</option>
+            <option value="educational">Educational Events</option>
+            <option value="sports">Sports Events</option>
+            <option value="entertainment">Entertainment Events</option>
+            <option value="personal">Personal & Private Events</option>
+        </select>
+    </header>
+
+    <div class="gallery">
+        <!-- Sample Images with categories -->
+        <div class="gallery-item" data-category="social">
+            <img src="Images/1.jpg" alt="Wedding Event">
+        </div>
+        
+        <div class="gallery-item" data-category="corporate">
+            <img src="Images/2.jpg" alt="Corporate Conference">
+        </div>
+             
+        <div class="gallery-item" data-category="corporate">
+                <img src="Images/3.jpg" alt="Public & Cultural Events">
+        </div>
+            
+        <div class="gallery-item" data-category="Educational Events">
+                <img src="Images/4.jpg" alt="Educational Events">
+        </div>
+            
+        <div class="gallery-item" data-category="Sports Events">
+                <img src="Images/5.jpg" alt="Sports Events">
+        </div>
+        
+        <div class="gallery-item" data-category="Entertainment Events">
+                <img src="Images/6.jpg" alt="Entertainment Events">
+        </div>
+            
+        <div class="gallery-item" data-category="Personal & Private Events">
+                <img src="Images/7.jpg" alt="Personal & Private Events">
+        </div>
+            
+        <div class="gallery-item" data-category="Personal & Private Events">
+                <img src="Images/8.jpg" alt="Personal & Private Events">
+        </div>
+        
+        <div class="gallery-item" data-category="Personal & Private Events">
+            <img src="Images/9.jpg" alt="Personal & Private Events">
+    </div>
+       
+        <!-- Add more images with appropriate data-category -->
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" src="" alt="Expanded Image">
+        <div class="prev">&#10094;</div>
+        <div class="next">&#10095;</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
